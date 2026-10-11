@@ -1,0 +1,92 @@
+
+ ***************** HS95 Program ******************
+ ************ written by Tore Brinck *************
+ ********** Applied Physical Chemistry ***********
+ ******* KTH Royal Institute of Technology *******
+ ************* tore@physchem.kth.se **************
+ ************ version May 22, 2019 *************
+
+ Do not use/redistribute without consent of Tore Brinck!
+
+ Vmin=None           Surface=Density          Property=Potential                                     
+ Contour= 0.001000  Step= 0.200000  Axis=7  Property= 1
+ Number of groups for QSAR anlysis 0
+
+ *********Standard Orientation in Angstrom*********
+  O  1         0.0000     0.0000     0.1085
+  H  2         0.0000     0.0000    -0.8679
+ **************************************************
+
+ Vmin Computation     0.0 seconds
+
+ ****Statistical data from Surface calculation****
+   3473 points   0 removed points  1561 Pos. points  1912 Neg. points
+ Surf.Area(A2)   37.73  Av.Vs(r)(kcal/mol)   1.42  Pi  19.73  Sigma2 253.94
+   Av.Is(r)(eV)   12.98
+ Pos.area    16.96  Av.pos.Vs(r)    23.34  Pos.Sigma2   193.35 Pos.V2   738.13
+ Neg.Area    20.77  Av.neg.Vs(r)   -16.48  Neg.Sigma2    60.59 Neg.V2   332.26
+ App. Volume (A3)    20.74  App. Polariz. (A3)    1.33  Av.Is(r)(eV)  12.98
+
+ Log P  analysis
+  Old equation:    Log P (HF/6-31G*)  -1.02  Log P (STO-5G)  -0.59
+
+ Heats of Vaporization and Sublimation  analysis (kcal/mol)
+ -----------------------------------------
+ b3lyp/6-31G* Rice, BM, Combustion and Flame, 1999,118,445
+   Hvap   3.91  Hsub  11.41 Tvap 192.43
+ b3PW91/6-31G** Politzer, P, Int J Quant Chem,2005,105,341
+   Hvap   5.64  Hsub  12.16 Tvap 277.38
+
+ Information from Vsmin search
+ nr sy at   Vs(r)(kcal) Rholumo   Is(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1  -26.94   0.000000   11.45    0.00     0.000   -1.250    1.284    O  1  1.716   H  2  2.489  133.2
+   2 $  O  1  -26.93   0.000000   11.67    0.00     0.000    1.169    1.355    O  1  1.709   H  2  2.512  136.8
+
+ Information from Vsmax search
+ nr sy at   Vs(r)(kcal) Rholumo   Is(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  H  2   46.61   0.000000   14.43    0.00     0.090    0.000   -2.092    H  2  1.227   O  1  2.202  175.8
+
+ Information from Ismin search
+ nr sy at    Is(r)(eV)  Rholumo   Vs(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1   10.14   0.000000  -19.49    0.00    -0.011    1.746    0.222    O  1  1.750   H  2  2.058   93.7
+   2 $  O  1   10.14   0.000000  -19.49    0.00     0.022   -1.746    0.222    O  1  1.750   H  2  2.058   93.7
+
+ Information from Ismax search
+ nr sy at    Is(r)(eV)  Rholumo   Vs(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1   15.76   0.000606   23.54   -2.12     1.418    0.001   -0.785    H  2  1.421   O  1  1.676   86.6
+   2 $  O  1   15.75   0.000606   23.54   -2.12    -1.418    0.026   -0.785    H  2  1.421   O  1  1.676   86.6
+   3 @  O  1   13.93   0.000000  -25.01    0.00     0.002    0.000    1.756    O  1  1.648   H  2  2.624  179.9
+
+ Highest occupied alpha orbitals (eV)      -9.30  -11.51  -12.96  -27.66 -524.24    0.00
+ Lowest unoccupied alpha orbitals           1.86   15.69   23.62   24.43   25.06   28.51
+ Highest occupied beta orbitals (eV)       -8.55  -12.19  -25.56 -523.51    0.00    0.00
+ Lowest unoccupied beta orbitals           -3.51    2.11   15.91   25.12   25.52   26.72
+
+ Info from  Electron Attachment Energy min (Esmin)  search
+ nr sy at    Es(r)(eV)  Rholumo   Vs(r)    Is(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1   -4.05   0.001154    9.03   14.40    -1.588   -0.007   -0.088    O  1  1.600   H  2  1.769   82.9
+   2 $  O  1   -4.04   0.001153    6.91   14.21     1.599    0.002    0.012    O  1  1.602   H  2  1.825   86.5
+
+ Info from Ts(r)= Is(r)-Vs(r)  minimum search
+ nr sy at    Ts(r)(eV)  Rholumo   Is(r)    Vs(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1   10.87   0.000000   10.25  -14.22     0.020    1.731   -0.106    O  1  1.744   H  2  1.891   82.9
+   2 $  O  1   10.87   0.000000   10.25  -14.21     0.042   -1.730   -0.106    O  1  1.744   H  2  1.891   82.9
+   3 @  H  2   12.41   0.000000   14.43   46.59     0.000   -0.090   -2.092    H  2  1.227   O  1  2.202  175.8
+
+ Information from Spin Density (SpinD) maximum search
+ nr sy at    SpinD mau   Rholumo   Vs(r)    Is(r)     Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1   0.803   0.001154    9.03   14.40    -1.588   -0.007   -0.088    O  1  1.600   H  2  1.769   82.9
+   2 $  O  1   0.802   0.001153    9.01   14.40     1.588   -0.037   -0.088    O  1  1.600   H  2  1.769   82.9
+
+ ****Statistical data atom by atom 1****
+ nr  sy   area  neg.a  pos.a    Vav    Pi   Sigma  ne.Si  po.Si    Iav   logP  Vsmax  Vsmin   Vmin  Pvmin  Ismin
+  1   O   29.9   21.4    8.4   -8.6   15.7  156.8   60.6   96.3  12.50  -0.47   27.5  -26.9  -26.9    0.0  10.14
+  2   H    9.0    0.0    9.0   34.6   33.2   97.1    0.0   97.1  14.56  -0.11   46.6   16.1   16.1    0.0  13.51
+
+ ****Statistical data atom by atom 2****
+ nr  sy   Vav+   Vav-   Iav-    Eav   Eav-  Esmin
+  1   O    5.9  -19.6  11.28  -1.15  -2.32  -4.05
+  2   H   40.8   27.7  14.35  -0.17  -0.44  -1.03
+
+ Surface Computation     0.6 seconds
+ Total time              0.6 seconds

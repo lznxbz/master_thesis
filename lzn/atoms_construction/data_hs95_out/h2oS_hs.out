@@ -1,0 +1,84 @@
+
+ ***************** HS95 Program ******************
+ ************ written by Tore Brinck *************
+ ********** Applied Physical Chemistry ***********
+ ******* KTH Royal Institute of Technology *******
+ ************* tore@physchem.kth.se **************
+ ************ version May 22, 2019 *************
+
+ Do not use/redistribute without consent of Tore Brinck!
+
+ Vmin=None           Surface=Density          Property=Potential                                     
+ Contour= 0.001000  Step= 0.200000  Axis=7  Property= 1
+ Number of groups for QSAR anlysis 0
+
+ *********Standard Orientation in Angstrom*********
+  O  1         0.0000     0.0000     0.1167
+  H  2         0.0000     0.7616    -0.4670
+  H  3         0.0000    -0.7616    -0.4670
+ **************************************************
+
+ Vmin Computation     0.0 seconds
+
+ ****Statistical data from Surface calculation****
+   4094 points  64 removed points  2039 Pos. points  2055 Neg. points
+ Surf.Area(A2)   44.48  Av.Vs(r)(kcal/mol)   1.32  Pi  23.07  Sigma2 265.55
+   Av.Is(r)(eV)   12.44
+ Pos.area    22.15  Av.pos.Vs(r)    24.47  Pos.Sigma2   152.94 Pos.V2   751.61
+ Neg.Area    22.33  Av.neg.Vs(r)   -21.64  Neg.Sigma2   112.62 Neg.V2   581.03
+ App. Volume (A3)    26.55  App. Polariz. (A3)    2.08  Av.Is(r)(eV)  12.44
+
+ Log P  analysis
+  Old equation:    Log P (HF/6-31G*)  -1.37  Log P (STO-5G)  -1.10
+
+ Heats of Vaporization and Sublimation  analysis (kcal/mol)
+ -----------------------------------------
+ b3lyp/6-31G* Rice, BM, Combustion and Flame, 1999,118,445
+   Hvap   6.53  Hsub  14.90 Tvap 321.57
+ b3PW91/6-31G** Politzer, P, Int J Quant Chem,2005,105,341
+   Hvap   7.81  Hsub  15.01 Tvap 384.48
+
+ Information from Vsmin search
+ nr sy at   Vs(r)(kcal) Rholumo   Is(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1  -36.72   0.000000   11.35    0.00     0.002    0.000    1.930    O  1  1.814   H  2  2.516  127.5
+
+ Information from Vsmax search
+ nr sy at   Vs(r)(kcal) Rholumo   Is(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  H  3   43.53   0.000000   14.27    0.00     0.026   -1.653   -1.295    H  3  1.217   O  1  2.174  174.4
+   2 $  H  2   43.53   0.000000   14.27    0.00     0.030    1.657   -1.290    H  2  1.216   O  1  2.174  174.7
+
+ Information from Ismin search
+ nr sy at    Is(r)(eV)  Rholumo   Vs(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1    9.51   0.000000  -22.54    0.00     1.880    0.002    0.246    O  1  1.884   H  2  2.149   92.4
+   2 $  O  1    9.52   0.000000  -22.53    0.00    -1.879   -0.041    0.246    O  1  1.884   H  3  2.135   91.4
+
+ Information from Ismax search
+ nr sy at    Is(r)(eV)  Rholumo   Vs(r)    Es(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1   16.38   0.000000   10.01    0.00     0.029   -1.751    0.443    H  3  1.345   O  1  1.782   99.9
+   2 $  O  1   16.38   0.000000    9.99    0.00    -0.044    1.751    0.443    H  2  1.345   O  1  1.782   99.9
+
+ Highest occupied alpha orbitals (eV)      -8.89  -10.95  -14.88  -28.27 -522.52    0.00
+ Lowest unoccupied alpha orbitals           0.86    2.90   10.18   11.51   12.11   12.39
+
+ No negative eigenvalue no Es(r)!
+
+ Info from Ts(r)= Is(r)-Vs(r)  minimum search
+ nr sy at    Ts(r)(eV)  Rholumo   Is(r)    Vs(r)      Coordinates (A)           Dist. to near. atoms      Angle
+   1 $  O  1   10.31   0.000000    9.80  -11.79     1.800    0.002   -0.396    O  1  1.871   H  2  1.955   80.4
+   2 $  O  1   10.31   0.000000    9.80  -11.79    -1.800    0.008   -0.396    O  1  1.871   H  2  1.952   80.2
+
+
+ ****Statistical data atom by atom 1****
+ nr  sy   area  neg.a  pos.a    Vav    Pi   Sigma  ne.Si  po.Si    Iav   logP  Vsmax  Vsmin   Vmin  Pvmin  Ismin
+  1   O   32.4   23.0    9.4  -11.4   19.9  197.4  112.6   84.8  11.73  -0.98   33.4  -36.7  -36.7    0.0   9.51
+  2   H    7.1    0.0    7.1   31.6   30.2   35.0    0.0   35.0  14.14  -0.05   43.5   12.3   12.3    0.0  12.68
+  3   H    7.0    0.0    7.0   31.6   30.3   34.7    0.0   34.7  14.15  -0.05   43.5   12.8   12.8    0.0  12.70
+
+ ****Statistical data atom by atom 2****
+ nr  sy   Vav+   Vav-   Iav-    Eav   Eav-  Esmin
+  1   O    6.9  -26.0  10.62   0.00   0.00   0.00
+  2   H   37.5   24.0  13.57   0.00   0.00   0.00
+  3   H   37.5   24.1  13.59   0.00   0.00   0.00
+
+ Surface Computation     0.5 seconds
+ Total time              0.5 seconds
